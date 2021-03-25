@@ -20,7 +20,7 @@
         }
     },
     "variables": {
-        "resourceNamePrefix": "crtxt",
+        "resourceNamePrefix": "abtxt",
 
         "applicationInsightsName": "[concat(variables('resourceNamePrefix'), 'ai', parameters('uniqueResourceNameSuffix'))]",
 
