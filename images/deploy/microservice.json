@@ -20,7 +20,7 @@
         }
     },
     "variables": {
-        "resourceNamePrefix": "crimg",
+        "resourceNamePrefix": "abimg",
 
         "applicationInsightsName": "[concat(variables('resourceNamePrefix'), 'ai', parameters('uniqueResourceNameSuffix'))]",
 
