@@ -2,7 +2,6 @@
 
 pool: 
   vmImage: ubuntu-latest
-queue: 
   demands: 
     - npm
     - msbuild
