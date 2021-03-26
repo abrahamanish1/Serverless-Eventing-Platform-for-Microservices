@@ -21,7 +21,7 @@
         }
     },
     "variables": {
-        "resourceNamePrefix": "crapi",
+        "resourceNamePrefix": "abapi",
 
         "functionsAppServicePlanName": "[concat(variables('resourceNamePrefix'), 'fnasp', parameters('uniqueResourceNameSuffix'))]",
         "functionsApiProxyAppName": "[concat(variables('resourceNamePrefix'), 'proxy', parameters('uniqueResourceNameSuffix'))]"
