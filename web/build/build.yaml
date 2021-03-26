@@ -1,13 +1,13 @@
 # Builds the ContentReactor Front end and ASP.NET SignalR Middleware
-pool:
-  vmImage: 'ubuntu-latest'
+
 resources:
 - repo: self
 queue:
   demands: 
   - npm
   - msbuild
-
+pool:
+  vmImage: 'ubuntu-latest'
 steps:
 
 # Install Angular App Dependencies
