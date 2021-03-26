@@ -23,7 +23,7 @@
     },
     "variables": {
 
-        "resourceNamePrefix" : "crweb",
+        "resourceNamePrefix" : "abweb",
 
         "urlPrefix" : "https://",
 
